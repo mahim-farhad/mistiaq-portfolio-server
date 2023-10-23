@@ -22,22 +22,11 @@
       "targetField": "title",
       "required": true
     },
-    "description": {
-      "type": "text",
-      "options": {
-        "preset": "toolbar"
-      },
-      "required": true
-    },
     "category": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "publications"
-    },
-    "code_link": {
-      "type": "string",
-      "required": true
     },
     "paper": {
       "type": "media",
@@ -47,9 +36,8 @@
         "files"
       ]
     },
-    "uploaded_at": {
-      "type": "datetime",
-      "required": true
+    "description": {
+      "type": "richtext"
     }
   }
 }

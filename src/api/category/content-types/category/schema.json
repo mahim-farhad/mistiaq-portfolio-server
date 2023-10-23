@@ -27,8 +27,9 @@
       "target": "api::publication.publication",
       "mappedBy": "category"
     },
-    "uploaded_at": {
-      "type": "datetime",
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
       "required": true
     }
   }
