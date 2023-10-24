@@ -38,6 +38,10 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "links": {
+      "type": "json",
+      "required": true
     }
   }
 }
